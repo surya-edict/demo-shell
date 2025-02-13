@@ -1,5 +1,8 @@
 #!/bin/bash
-
+<< comm
+It's a multiline
+comment
+comm
 # Validate input
 if [[ -z "$1" ]]; then
     echo "Usage: $0 <target_directory>"
